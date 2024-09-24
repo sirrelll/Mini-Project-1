@@ -1,2 +1,3 @@
 # Mini Project 1
 Nama : Darel Prasetya Fawwaz, NIM : 2409116064, Nama Tugas :...
+![Cuplikan layar 2024-09-23 223849](https://github.com/user-attachments/assets/aa12907c-7a45-46e1-bf18-931f0599d23b)

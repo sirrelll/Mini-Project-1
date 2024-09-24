@@ -1,2 +1,2 @@
-# tes-1
-Nama : Tes NIM : 2409 Nama Tugas : Tes
+# Mini Project 1
+Nama : Darel Prasetya Fawwaz, NIM : 2409116064, Nama Tugas :...

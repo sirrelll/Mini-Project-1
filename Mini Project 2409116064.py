@@ -41,7 +41,7 @@ while True:
             print("Total yang harus dibayar : ", total)
             print("------------------------------------------")
 
-        # mengulang
+# mengulang
             ulang = input("Apakah ingin menghitung ulang? (yes/no) : ").lower()
             if ulang != 'yes':
                 print("Terima kasih telah berbelanja disini")

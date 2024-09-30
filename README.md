@@ -40,7 +40,7 @@ Penjelasan:
 
    
        print("----------------------DAFTAR BARANG-----------------------")
-   for a in barang:
+       for a in barang:
        print("Daftar Barang:", a,"\t Harga :", barang[a])
        print("--------------------------------------------------------")
 

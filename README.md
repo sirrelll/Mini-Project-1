@@ -37,13 +37,14 @@ for a in barang:
 print("--------------------------------------------------------")
 
 5. Baris 32-36 untuk menginput barang beserta jumlahnya agar bisa menghitung total harga barang yang telah diinputkan.
+   
 while True:
             pilih_barang = input("Barang yang dipesan: ",)
             jumlah_pembelian = int(input("Jumlah Pesanan: "))
             
             total_harga = jumlah_pembelian * barang[pilih_barang]
 
-6. Baris 43-48 untuk menentukan jika total harga melebihi 250.000 maka akan mendapatkan diskon sebesar 25% dan jika total harga tidak melebihi 250.000
+7. Baris 43-48 untuk menentukan jika total harga melebihi 250.000 maka akan mendapatkan diskon sebesar 25% dan jika total harga tidak melebihi 250.000
    maka total harga akan tetap.
    if total_harga > 250000:
                 diskon = total_harga*25/100
@@ -52,7 +53,7 @@ while True:
             else:
                 total = total_harga 
 
-7. Baris 52-57 untuk menampilkan data pada baris 43-48 sehingga muncullah data pembayaran yang telah diinputkan pada baris sebelumnya.
+8. Baris 52-57 untuk menampilkan data pada baris 43-48 sehingga muncullah data pembayaran yang telah diinputkan pada baris sebelumnya.
             print("----------------Pembayaran----------------")
             print("Barang yang dipesan      : ", pilih_barang)
             print("Jumlah yang dipesan      : ", jumlah_pembelian)
@@ -60,7 +61,7 @@ while True:
             print("Total yang harus dibayar : ", total)
             print("------------------------------------------")
 
-8. Baris 60-63 untuk memunculkan perulangan yang memberikan piiihan apakah ingin menghitung total harga kembali atau
+9. Baris 60-63 untuk memunculkan perulangan yang memberikan piiihan apakah ingin menghitung total harga kembali atau
    keluar dari program ini.
                ulang = input("Apakah ingin menghitung ulang? (yes/no) : ").lower()
             if ulang != 'yes':

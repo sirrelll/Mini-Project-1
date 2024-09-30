@@ -13,25 +13,25 @@ Penjelasan:
 1. Baris 6-9 merupakan cara untuk memunculkan login sederhana serta menginput data seperti Nama, NIM, dan Kelas.
 
 
-   print("-----LOGIN-----")
-   nama =  input("Masukkan Nama: ")
-   nim =   input("Masukkan NIM: ")
-   kelas = input("Masukkan Kelas: ")
+      print("-----LOGIN-----")
+      nama =  input("Masukkan Nama: ")
+      nim =   input("Masukkan NIM: ")
+      kelas = input("Masukkan Kelas: ")
 
 1. Baris 12-14 untuk memunculkan hasil login sederhana setelah memasukkan Nama, NIM, Kelas.
 
    
-   print("\nSelamat anda telah berhasil login,", nama)
-   print("NIM: ", nim)
-   print("Kelas: ", kelas)
+      print("\nSelamat anda telah berhasil login,", nama)
+      print("NIM: ", nim)
+      print("Kelas: ", kelas)
 
 4. Baris 17-21 membuat daftar barang beserta harganya untuk ditampilkan.
 
    
       barang = {
-       "Baju":150000,
-       "Celana":250000,
-       "Tas":200000,
+          "Baju":150000,
+          "Celana":250000,
+          "Tas":200000,
       }
 
 6. Baris 24-27 untuk menampilkan daftar barang yang telah dibuat pada baris sebelumnya.

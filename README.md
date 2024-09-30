@@ -21,6 +21,7 @@ Penjelasan:
          print("Kelas: ", kelas)
 
 4. Baris 17-21 membuat daftar barang beserta harganya untuk ditampilkan.
+   
          barang = {
          "Baju":150000,
          "Celana":250000,

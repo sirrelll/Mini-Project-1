@@ -4,7 +4,7 @@ Nama : Darel Prasetya Fawwaz, NIM : 2409116064, Nama Tugas : Mini Project 1 (NIM
 Flowchart draw.io
 ![Mini Project 2409116064  drawio](https://github.com/user-attachments/assets/759c7e80-f130-41a4-a9fc-a9d48f8410fe)
 Penjelasan tentang Flowchart draw.io
-Tentunya diawali dengan simbol start, yang kemudian dilanjutkan dengan simbol data untuk menginput Namma, NIM, beserta Kelas, setelah itu
+Tentunya diawali dengan simbol start, yang kemudian dilanjutkan dengan simbol data untuk menginput Nama, NIM, beserta Kelas, setelah itu
 munculkan simbol process untuk menampilkan pesan yaitu "Selamat anda telah berhasil login" tampilkan lagi simbol process untuk menampilkan daftar barang beserta harganya, dan munculkan simbol data untuk menginput harga dan jumlah yang kita inginkan, munculkan simbol decision yang dimana jika harga melebihi 250.000 maka total harga akan mendapatkan diskon sebesar 25% dan jika harga kurang dari atau sama dengan 250.000 maka total harga akan tetap, kemudian munculkan simbol process untuk menampilkan pembayaran yang sudah ditetapkan, munculkan simbol decision apakah ingin menghitung ulang atau tidak, jika iya maka akan dikembalikan ke input harga dan jumlah dan jika tidak maka keluar dari program.
 
 Program Python Mini Project 1 (NIM Genap)

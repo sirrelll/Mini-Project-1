@@ -13,7 +13,7 @@ barang = {
     "Baju":150000,
     "Celana":250000,
     "Tas":200000,
-}.lower()
+}
 print("----------------------DAFTAR BARANG-----------------------")
 for a in barang:
     print("Daftar Barang:", a,"\t Harga :", barang[a])

@@ -12,7 +12,7 @@ Program Python Mini Project 1 (NIM Genap)
 Penjelasan:
 1. Baris 6-9 merupakan cara untuk memunculkan login sederhana serta menginput data seperti Nama, NIM, dan Kelas.
    
-print("-----LOGIN-----")
+   print("-----LOGIN-----")
 nama =  input("Masukkan Nama: ")
 nim =   input("Masukkan NIM: ")
 kelas = input("Masukkan Kelas: ")

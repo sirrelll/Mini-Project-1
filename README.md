@@ -10,7 +10,7 @@ munculkan simbol process untuk menampilkan pesan yaitu "Selamat anda telah berha
 Program Python Mini Project 1 (NIM Genap)
 ![Program Python Mini Project 1](https://github.com/user-attachments/assets/8b0d7675-468d-4b3b-b0fe-ccb8ec841a6b)
 Penjelasan:
-1. Baris 6-9 merupakan cara untuk memunculkan login sederhana serta menginput data seperti Nama, NIM, dan Kelas, dan setelah diinputkan maka akan muncul " Selamat anda telah berhasil login, beserta Nama, NIM, dan kelas yang akan dimunculkan.
+1. Baris 15-21 merupakan cara untuk memunculkan login sederhana serta menginput data seperti Nama, NIM, dan Kelas, dan setelah diinputkan maka akan muncul " Selamat anda telah berhasil login, beserta Nama, NIM, dan kelas yang akan dimunculkan.
    
          print("-----LOGIN-----")
          nama = input("Masukkan Nama: ")
@@ -20,7 +20,7 @@ Penjelasan:
          print("NIM: ", nim)
          print("Kelas: ", kelas)
 
-4. Baris 17-21 membuat daftar barang beserta harganya untuk ditampilkan.
+4. Baris 25-29 membuat daftar barang beserta harganya untuk ditampilkan.
    
          barang = {
          "Baju":150000,
@@ -28,7 +28,7 @@ Penjelasan:
          "Tas":200000,
          }
 
-6. Baris 24-27 untuk menampilkan daftar barang yang telah dibuat pada baris sebelumnya.
+6. Baris 36-39 untuk menampilkan daftar barang yang telah dibuat pada baris sebelumnya.
    dengan adanya "for a in barang" kita bisa mengambil data yang ada di baris 17-21 dan dengan adanya "\t" akan membuat spasi
    pada setiap barang yang ada pada daftar.
 
@@ -38,7 +38,7 @@ Penjelasan:
        print("Daftar Barang:", a,"\t Harga :", barang[a])
        print("--------------------------------------------------------")
 
-8. Baris 32-36 untuk menginput barang beserta jumlahnya agar bisa menghitung total harga barang yang telah diinputkan.
+8. Baris 44-47 untuk menginput barang beserta jumlahnya agar bisa menghitung total harga barang yang telah diinputkan.
 
    
          while True:
@@ -46,7 +46,7 @@ Penjelasan:
                jumlah_pembelian = int(input("Jumlah Pesanan: "))
                total_harga = jumlah_pembelian * barang[pilih_barang]
 
-10. Baris 43-48 untuk menentukan jika total harga melebihi 250.000 maka akan mendapatkan diskon sebesar 25% dan jika total harga tidak melebihi 250.000
+10. Baris 53-58 untuk menentukan jika total harga melebihi 250.000 maka akan mendapatkan diskon sebesar 25% dan jika total harga tidak melebihi 250.000
    maka total harga akan tetap.
 
 
@@ -57,7 +57,7 @@ Penjelasan:
             else:
                 total = total_harga 
 
-12. Baris 52-57 untuk menampilkan data pada baris 43-48 sehingga muncullah data pembayaran yang telah diinputkan pada baris sebelumnya.
+12. Baris 63-68 untuk menampilkan data pada baris 43-48 sehingga muncullah data pembayaran yang telah diinputkan pada baris sebelumnya.
 
     
             print("----------------Pembayaran----------------")
@@ -67,7 +67,7 @@ Penjelasan:
             print("Total yang harus dibayar : ", total)
             print("------------------------------------------")
 
-14. Baris 60-63 untuk memunculkan perulangan yang memberikan piiihan apakah ingin menghitung total harga kembali atau
+14. Baris 70-77 untuk memunculkan perulangan yang memberikan piiihan apakah ingin menghitung total harga kembali atau
    keluar dari program ini, ".lower() disini juga berfungsi untuk kata (yes/no) yang dimana tidak berpengaruh mau memakai huruf kapital atau tidak.
 
 

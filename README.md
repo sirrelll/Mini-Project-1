@@ -12,13 +12,13 @@ Program Python Mini Project 1 (NIM Genap)
 Penjelasan:
 1. Baris 6-9 merupakan cara untuk memunculkan login sederhana serta menginput data seperti Nama, NIM, dan Kelas, dan setelah diinputkan maka akan muncul " Selamat anda telah berhasil login, beserta Nama, NIM, dan kelas yang akan dimunculkan.
    
-   print("-----LOGIN-----")
-   nama = input("Masukkan Nama: ")
-   nim = input("Masukkan NIM: ")
-   kelas = input("Masukkan Kelas: ")
-   print("\nSelamat anda telah berhasil login,", nama)
-   print("NIM: ", nim)
-   print("Kelas: ", kelas)
+         print("-----LOGIN-----")
+         nama = input("Masukkan Nama: ")
+         nim = input("Masukkan NIM: ")
+         kelas = input("Masukkan Kelas: ")
+         print("\nSelamat anda telah berhasil login,", nama)
+         print("NIM: ", nim)
+         print("Kelas: ", kelas)
 
 4. Baris 17-21 membuat daftar barang beserta harganya untuk ditampilkan.
    barang = {

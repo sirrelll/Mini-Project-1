@@ -39,15 +39,15 @@ Penjelasan:
    pada setiap barang yang ada pada daftar.
 
    
-   print("----------------------DAFTAR BARANG-----------------------")
+       print("----------------------DAFTAR BARANG-----------------------")
    for a in barang:
        print("Daftar Barang:", a,"\t Harga :", barang[a])
-   print("--------------------------------------------------------")
+       print("--------------------------------------------------------")
 
 8. Baris 32-36 untuk menginput barang beserta jumlahnya agar bisa menghitung total harga barang yang telah diinputkan.
 
    
-   while True:
+         while True:
                pilih_barang = input("Barang yang dipesan: ",)
                jumlah_pembelian = int(input("Jumlah Pesanan: "))
                total_harga = jumlah_pembelian * barang[pilih_barang]
@@ -56,7 +56,7 @@ Penjelasan:
    maka total harga akan tetap.
 
 
-   if total_harga > 250000:
+            if total_harga > 250000:
                 diskon = total_harga*25/100
                 total = total_harga - diskon
                 print("\nSelamat anda mendapatkan diskon sebesar 25%")

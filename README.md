@@ -11,10 +11,11 @@ Program Python Mini Project 1 (NIM Genap)
 ![Program Python Mini Project 1](https://github.com/user-attachments/assets/8b0d7675-468d-4b3b-b0fe-ccb8ec841a6b)
 Penjelasan:
 1. Baris 6-9 merupakan cara untuk memunculkan login sederhana serta menginput data seperti Nama, NIM, dan Kelas.
+   
 print("-----LOGIN-----")
-nama =     input("Masukkan Nama: ")
-nim =      input("Masukkan NIM: ")
-kelas =    input("Masukkan Kelas: ")
+nama = input("Masukkan Nama: ")
+nim = input("Masukkan NIM: ")
+kelas = input("Masukkan Kelas: ")
 
    
 1. Baris 12-14 untuk memunculkan hasil login sederhana setelah memasukkan Nama, NIM, Kelas.

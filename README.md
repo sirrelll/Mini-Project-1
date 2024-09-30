@@ -25,7 +25,7 @@ Penjelasan:
          "Baju":150000,
          "Celana":250000,
          "Tas":200000,
-      }
+         }
 
 6. Baris 24-27 untuk menampilkan daftar barang yang telah dibuat pada baris sebelumnya.
    dengan adanya "for a in barang" kita bisa mengambil data yang ada di baris 17-21 dan dengan adanya "\t" akan membuat spasi

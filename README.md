@@ -17,21 +17,17 @@ nim =      input("Masukkan NIM: ")
 kelas =    input("Masukkan Kelas: ")
 
    
-
 1. Baris 12-14 untuk memunculkan hasil login sederhana setelah memasukkan Nama, NIM, Kelas.
-
-   
-      print("\nSelamat anda telah berhasil login,", nama)
-      print("NIM: ", nim)
-      print("Kelas: ", kelas)
+   print("\nSelamat anda telah berhasil login,", nama)
+   print("NIM: ", nim)
+   print("Kelas: ", kelas)
 
 4. Baris 17-21 membuat daftar barang beserta harganya untuk ditampilkan.
-
-      barang = {
-             "Baju":150000,
-             "Celana":250000,
-             "Tas":200000,
-         }
+   barang = {
+   "Baju":150000,
+   "Celana":250000,
+   "Tas":200000,
+    }
 
 6. Baris 24-27 untuk menampilkan daftar barang yang telah dibuat pada baris sebelumnya.
    dengan adanya "for a in barang" kita bisa mengambil data yang ada di baris 17-21 dan dengan adanya "\t" akan membuat spasi
@@ -73,7 +69,7 @@ kelas =    input("Masukkan Kelas: ")
             print("------------------------------------------")
 
 14. Baris 60-63 untuk memunculkan perulangan yang memberikan piiihan apakah ingin menghitung total harga kembali atau
-   keluar dari program ini.
+   keluar dari program ini, ".lower() disini juga berfungsi untuk kata (yes/no) yang dimana tidak berpengaruh mau memakai huruf kapital atau tidak.
 
 
                ulang = input("Apakah ingin menghitung ulang? (yes/no) : ").lower()
